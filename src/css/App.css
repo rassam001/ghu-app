@@ -1,0 +1,28 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css");
+header {
+  background-color: #333;
+  padding: 0.5em;
+  text-align: center;
+  color: #eee;
+}
+header imput,
+header button {
+  border: none;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  width: 30%;
+  list-style: none;
+}
+li figure {
+  display: flex;
+  height: 5em;
+  align-items: center;
+}
+li figure img {
+  width: 100%;
+  border-radius: 50%;
+}
